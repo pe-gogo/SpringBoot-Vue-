@@ -9,7 +9,7 @@
     <!--    搜索-->
     <div style="margin: 10px 0">
       <el-input v-model="search" placeholder="请输入关键字" style="width: 20%"></el-input>
-      <el-button type="primary" style="margin-left: 5px">查询</el-button>
+      <el-button type="primary" style="margin-left: 5px" @click="load">查询</el-button>
     </div>
     <el-table :data="tableData" border stripe>
       <el-table-column prop="id" label="ID" sortable/>
@@ -81,6 +81,8 @@
 <script>
 
 
+import request from "@/utils/request";
+
 export default {
   name: 'HomeView',
   data() {
@@ -96,13 +98,33 @@ export default {
       ]
     }
   },
+  /*created加载方法
+    使用response的记录参数，回来给tabledate赋值
+   */
+  created(){
+    this.load();
+  },
   methods: {
+    load(){
+      request.get("/user",{
+        pageNum: this.currentPage,
+        pageSize: this.pageSize,
+        search: this.search,
+
+      }).then(res=>{
+        console.log(res)
+        this.tableData = res.data.records
+        this.total= res.data.total
+      })
+    },
     add() {
       this.dialogVisible = true;
       this.form ={}
     },
     save(){
-
+      request.post("/user",this.form).then(res=>{
+        console.log(res)
+      })
     },
     handEdit() {
     },

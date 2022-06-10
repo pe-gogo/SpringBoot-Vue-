@@ -3,6 +3,6 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://locathost:3306/springboot-vue?useUnicode=ture&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://localhost:3306/springboot-vue?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
     username: root
     password: 88888888
