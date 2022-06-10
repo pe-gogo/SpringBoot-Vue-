@@ -19,9 +19,8 @@
       <el-table-column prop="sex" label="性别"/>
       <el-table-column prop="address" label="地址"/>
       <el-table-column fixed="right" label="Operations" width="120">
-        <template #default>
-          <el-button link type="primary" size="small" @click="handleEdit"
-          >编辑
+        <template #default="scope">
+          <el-button link type="primary" size="small" @click="handleEdit(scope.row)">编辑
           </el-button>
           <el-popconfirm title="Are you sure to delete this?">
             <template #reference>
@@ -60,12 +59,12 @@
           <el-input v-model="form.age" style="width: 80% "/>
         </el-form-item>
         <el-form-item label="性别">
-              <el-radio v-model="form.sex" label="1"  size="large">男</el-radio>
-              <el-radio v-model="form.sex" label="2" size="large">女</el-radio>
-              <el-radio v-model="form.sex" label="3" size="large">未知</el-radio>
+          <el-radio v-model="form.sex" label="1" size="large">男</el-radio>
+          <el-radio v-model="form.sex" label="2" size="large">女</el-radio>
+          <el-radio v-model="form.sex" label="3" size="large">未知</el-radio>
         </el-form-item>
         <el-form-item label="地址">
-          <el-input v-model="form.address"  type="textarea" style="width: 80% "/>
+          <el-input v-model="form.address" type="textarea" style="width: 80% "/>
         </el-form-item>
       </el-form>
       <template #footer>
@@ -87,47 +86,88 @@ export default {
   name: 'HomeView',
   data() {
     return {
-      form:  {},
+      form: {},
       dialogVisible: false,
       total: 10,
       pageSize: 10,
       search: '',
       currentPage: 1,
-      tableData: [
-
-      ]
+      tableData: []
     }
   },
   /*created加载方法
     使用response的记录参数，回来给tabledate赋值
    */
-  created(){
+  created() {
     this.load();
   },
   methods: {
-    load(){
-      request.get("/user",{
-        pageNum: this.currentPage,
-        pageSize: this.pageSize,
-        search: this.search,
-
-      }).then(res=>{
+    load() {
+      request.get("/user", {
+        params: {
+          pageNum: this.currentPage,
+          pageSize: this.pageSize,
+          search: this.search,
+        }
+      }).then(res => {
         console.log(res)
         this.tableData = res.data.records
-        this.total= res.data.total
+        this.total = res.data.total
       })
     },
     add() {
       this.dialogVisible = true;
-      this.form ={}
+      this.form = {}
     },
-    save(){
-      request.post("/user",this.form).then(res=>{
-        console.log(res)
-      })
+    save() {
+      if (this.form.id) {
+        request.put("/user", this.form).then(res => {
+              console.log(res)
+              if (res.code === '0') {
+                this.$message({
+                  type: "success",
+                  message: "更新成功"
+                })
+              } else {
+                this.$message({
+                  type: "error",
+                  message: res.msg
+                })
+              }
+          this.load()
+          this.dialogVisible = false
+        }
+        )
+      } else {
+        request.post("/user", this.form).then(res => {
+          console.log(res)
+          if (res.code === '0') {
+            this.$message({
+              type: "success",
+              message: "新增成功"
+            })
+          } else {
+            this.$message({
+              type: "error",
+              message: res.msg
+            })
+          }
+        })
+        this.load()
+        this.dialogVisible =false
+      }
+
     },
-    handEdit() {
+    handleEdit(row) {
+      this.form = JSON.parse(JSON.stringify(row))
+      this.dialogVisible = true
     },
+    handleSizeChange() {
+
+    },
+    handleCurrentChange() {
+
+    }
   }
 }
 </script>
