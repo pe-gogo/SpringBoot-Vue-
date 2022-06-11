@@ -1,27 +1,21 @@
 <template>
       <el-menu
-          default-active="2"
+          default-active="user"
           class="el-menu-vertical-demo"
+          :default-openeds="[1]"
           style="width: 200px; min-height: calc(100vh - 50px)"
       >
         <el-sub-menu index="1">
           <template #title>
-            <span>Navigator One</span>
+            <span>系统管理</span>
           </template>
-            <el-menu-item index="1-4-1">1-1</el-menu-item>
+            <el-menu-item index="user" :route="{path: '/'}">用户管理</el-menu-item>
         </el-sub-menu>
-        <el-menu-item index="2">
-          <el-icon><icon-menu /></el-icon>
-          <span>Navigator Two</span>
-        </el-menu-item>
-        <el-menu-item index="3" disabled>
-          <el-icon><document /></el-icon>
-          <span>Navigator Three</span>
-        </el-menu-item>
-        <el-menu-item index="4">
-          <el-icon><setting /></el-icon>
-          <span>Navigator Four</span>
-        </el-menu-item>
+        <el-sub-menu index="2">
+          <template #title>
+            <span>数据管理</span>
+          </template>
+        </el-sub-menu>
       </el-menu>
 
 </template>

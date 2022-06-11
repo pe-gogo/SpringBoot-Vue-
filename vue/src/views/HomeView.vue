@@ -188,7 +188,6 @@ export default {
             this.load();
           }
       )
-
       console.log(id)
     }
 
