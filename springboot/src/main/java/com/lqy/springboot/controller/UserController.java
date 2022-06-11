@@ -20,6 +20,8 @@ public class UserController {
     @Resource
     UserMapper userMapper;
 
+
+
     @PostMapping
     public Result<?> save(@RequestBody User user){
         if(user.getPassword()==null){
@@ -51,6 +53,18 @@ public class UserController {
     @DeleteMapping("/{id}")
     public Result<?> delete(@PathVariable Long id){
         userMapper.deleteById(id);
+        return Result.success();
+    }
+
+    @PostMapping("/login")
+    public Result<?> login(@RequestBody User user) {
+        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper();
+        lqw.eq(User::getPassword, user.getPassword()).eq(User::getUsername, user.getUsername());
+
+        User res = userMapper.selectOne(lqw);
+        if(res==null){
+            return Result.error("-1","用户名或密码错误");
+        }
         return Result.success();
     }
 }
