@@ -47,4 +47,10 @@ public class UserController {
         userMapper.updateById(user);
         return Result.success();
     }
+
+    @DeleteMapping("/{id}")
+    public Result<?> delete(@PathVariable Long id){
+        userMapper.deleteById(id);
+        return Result.success();
+    }
 }

@@ -22,9 +22,9 @@
         <template #default="scope">
           <el-button link type="primary" size="small" @click="handleEdit(scope.row)">编辑
           </el-button>
-          <el-popconfirm title="Are you sure to delete this?">
+          <el-popconfirm title="确定删除吗?" @confirm="handleDelete(scope.row.id)">
             <template #reference>
-              <el-button size="small" type="text">删除</el-button>
+              <el-button size="small" type="text" >删除</el-button>
             </template>
           </el-popconfirm>
         </template>
@@ -88,7 +88,7 @@ export default {
     return {
       form: {},
       dialogVisible: false,
-      total: 10,
+      total: 0,
       pageSize: 10,
       search: '',
       currentPage: 1,
@@ -162,12 +162,36 @@ export default {
       this.form = JSON.parse(JSON.stringify(row))
       this.dialogVisible = true
     },
-    handleSizeChange() {
-
+    handleSizeChange(pageSize) {
+      this.pageSize= pageSize
+      this.load()
     },
-    handleCurrentChange() {
+    handleCurrentChange(pageNum) {
+      this.currentPage = pageNum
+      this.load()
+    },
+    handleDelete(id){
+      request.delete("/user/"+ id ).then(
+          res => {
+            if(res.code==='0'){
+              this.$message({
+                type: "success",
+                message: "删除成功"
+              })
+            }else{
+              this.$message({
+                type: "error",
+                message: res.msg
+              })
+            }
+            console.log(res)
+            this.load();
+          }
+      )
 
+      console.log(id)
     }
+
   }
 }
 </script>
