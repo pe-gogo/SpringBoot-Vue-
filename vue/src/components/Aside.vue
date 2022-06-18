@@ -15,6 +15,7 @@
           <template #title>
             <span>数据管理</span>
           </template>
+            <el-menu-item index="data">登录</el-menu-item>
         </el-sub-menu>
       </el-menu>
 

@@ -6,3 +6,10 @@ spring:
     url: jdbc:mysql://localhost:3306/springboot-vue?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
     username: root
     password: 88888888
+
+logging:
+  level:
+    root: info
+    com.axiv548.springbootblog: debug
+  file:
+    path: log/blog-dev.log

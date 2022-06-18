@@ -10,6 +10,7 @@ import com.lqy.springboot.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.sql.Wrapper;
 
 @RestController
@@ -57,7 +58,7 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public Result<?> login(@RequestBody User user) {
+    public Result<?> login(HttpServletRequest request, @RequestBody User user) {
         LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper();
         lqw.eq(User::getPassword, user.getPassword()).eq(User::getUsername, user.getUsername());
 
@@ -67,4 +68,14 @@ public class UserController {
         }
         return Result.success();
     }
+
+    @PostMapping("/register")
+    public Result<?> register(@RequestBody User user) {
+
+        userMapper.insert(user);
+        return Result.success();
+    }
+
+
+
 }

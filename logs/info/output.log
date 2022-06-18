@@ -1,0 +1,14 @@
+[2022-06-18 09:07:09 [restartedMain] INFO  c.l.springboot.SpringbootApplication: Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP.lan with PID 87275 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+[2022-06-18 09:07:09 [restartedMain] INFO  c.l.springboot.SpringbootApplication: No active profile set, falling back to 1 default profile: "default"
+[2022-06-18 09:07:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-06-18 09:07:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-06-18 09:07:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8082 (http)
+[2022-06-18 09:07:14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8082"]
+[2022-06-18 09:07:14 [restartedMain] INFO  o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2022-06-18 09:07:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.63]
+[2022-06-18 09:07:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2022-06-18 09:07:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 4882 ms
+[2022-06-18 09:07:15 [restartedMain] INFO  o.a.catalina.core.StandardService: Stopping service [Tomcat]
+[2022-06-18 09:07:15 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

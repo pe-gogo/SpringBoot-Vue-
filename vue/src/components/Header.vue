@@ -4,12 +4,12 @@
     <div style="flex: 1;"></div>
     <div style="width: 100px;">
       <el-dropdown style="line-height: 50px">
-    <span class="el-dropdown-link">
-        UserName
-      <el-icon class="el-icon--right">
-        <arrow-down/>
-      </el-icon>
-    </span>
+          <span class="el-dropdown-link">
+                UserName
+            <el-icon class="el-icon--right">
+               <arrow-down/>
+            </el-icon>
+          </span>
         <template #dropdown>
           <el-dropdown-menu>
             <el-dropdown-item>个人信息</el-dropdown-item>
