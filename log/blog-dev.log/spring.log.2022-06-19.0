@@ -1,0 +1,277 @@
+2022-06-19 11:46:16.722  INFO 97531 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 97531 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 11:46:16.735  INFO 97531 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 11:46:16.926  INFO 97531 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-19 11:46:16.927  INFO 97531 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-19 11:46:18.853  INFO 97531 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 11:46:18.868  INFO 97531 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 11:46:18.869  INFO 97531 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 11:46:18.956  INFO 97531 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 11:46:18.957  INFO 97531 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2028 ms
+2022-06-19 11:46:19.617  WARN 97531 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 257578f4-43fe-4879-98d8-906cf2f76a68
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-19 11:46:19.720  INFO 97531 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7213920a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4195f22c, org.springframework.security.web.context.SecurityContextPersistenceFilter@fbb250d, org.springframework.security.web.header.HeaderWriterFilter@471eb02e, org.springframework.security.web.csrf.CsrfFilter@3fe10a4f, org.springframework.security.web.authentication.logout.LogoutFilter@6641c189, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a5f27b6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c380675, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6cb0388d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3fc2b3a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57074feb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fb089c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@455ccd6b, org.springframework.security.web.session.SessionManagementFilter@2986b3d3, org.springframework.security.web.access.ExceptionTranslationFilter@fc4a9f5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cabf053]
+2022-06-19 11:46:20.181  INFO 97531 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 11:46:20.232  INFO 97531 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 11:46:20.243  INFO 97531 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 4.744 seconds (JVM running for 5.89)
+2022-06-19 11:47:13.929  INFO 97531 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 11:47:13.931  INFO 97531 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 11:47:13.933  INFO 97531 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-19 13:29:08.201  INFO 30572 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 30572 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:29:08.203  INFO 30572 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:29:08.387  INFO 30572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-19 13:29:08.388  INFO 30572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-19 13:29:10.694  INFO 30572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:29:10.713  INFO 30572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:29:10.713  INFO 30572 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:29:10.809  INFO 30572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:29:10.810  INFO 30572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2422 ms
+2022-06-19 13:29:11.571  WARN 30572 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ceafc5b0-092d-4646-93c7-cc820d78eca7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-19 13:29:11.680  INFO 30572 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3fcdbed3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@465614ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@3723a5b4, org.springframework.security.web.header.HeaderWriterFilter@4eecffa7, org.springframework.security.web.csrf.CsrfFilter@33b566c3, org.springframework.security.web.authentication.logout.LogoutFilter@1bf4873d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@227db8a4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2ecd5b47, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7c615978, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5807ec18, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6038f554, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fc23581, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@233bb21e, org.springframework.security.web.session.SessionManagementFilter@543c752a, org.springframework.security.web.access.ExceptionTranslationFilter@44a7a9a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64173333]
+2022-06-19 13:29:12.273  INFO 30572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:29:12.320  INFO 30572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:29:12.333  INFO 30572 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 4.931 seconds (JVM running for 5.89)
+2022-06-19 13:29:56.498  INFO 30572 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:29:56.499  INFO 30572 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:29:56.506  INFO 30572 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-06-19 13:31:17.510  INFO 31446 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 31446 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:31:17.512  INFO 31446 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:31:17.618  INFO 31446 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-19 13:31:17.622  INFO 31446 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-19 13:31:19.449  INFO 31446 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:31:19.457  INFO 31446 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:31:19.458  INFO 31446 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:31:19.506  INFO 31446 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:31:19.506  INFO 31446 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1883 ms
+2022-06-19 13:31:20.359  WARN 31446 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c56276e4-3040-4f94-8f55-3d5d5256e4d7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-19 13:31:20.450  INFO 31446 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@74278b3e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f2644f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@8f7658a, org.springframework.security.web.header.HeaderWriterFilter@6ebc05c3, org.springframework.security.web.csrf.CsrfFilter@2283b171, org.springframework.security.web.authentication.logout.LogoutFilter@21520451, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5aa9e3b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@367eacda, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@515e50cd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e48cd09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b838658, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@618d7e70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42aae32a, org.springframework.security.web.session.SessionManagementFilter@26822662, org.springframework.security.web.access.ExceptionTranslationFilter@7f7668c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49b866a3]
+2022-06-19 13:31:20.498  INFO 31446 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:31:20.541  INFO 31446 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:31:20.554  INFO 31446 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 3.752 seconds (JVM running for 4.806)
+2022-06-19 13:31:32.323  INFO 31446 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:31:32.324  INFO 31446 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:31:32.325  INFO 31446 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-19 13:33:17.637  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 32267 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:33:17.642  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:33:17.735  INFO 32267 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-19 13:33:17.735  INFO 32267 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-19 13:33:19.316  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:33:19.326  INFO 32267 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:33:19.326  INFO 32267 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:33:19.373  INFO 32267 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:33:19.374  INFO 32267 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1637 ms
+2022-06-19 13:33:20.153  INFO 32267 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:33:20.195  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:33:20.206  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 3.329 seconds (JVM running for 4.294)
+2022-06-19 13:33:25.717  INFO 32267 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:33:25.718  INFO 32267 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:33:25.720  INFO 32267 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-19 13:33:25.964  INFO 32267 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-19 13:33:26.351  INFO 32267 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-19 13:33:26.435  INFO 32267 --- [http-nio-8082-exec-1] .UserAop$$EnhancerBySpringCGLIB$$8168995 : org.apache.catalina.connector.RequestFacade@237e404
+2022-06-19 13:33:27.002  INFO 32267 --- [http-nio-8082-exec-2] .UserAop$$EnhancerBySpringCGLIB$$8168995 : 1
+2022-06-19 13:34:33.183  INFO 32267 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-19 13:34:33.196  INFO 32267 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-19 13:34:33.493  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 32267 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:34:33.493  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:34:33.999  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:34:34.004  INFO 32267 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:34:34.005  INFO 32267 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:34:34.014  INFO 32267 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:34:34.015  INFO 32267 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 518 ms
+2022-06-19 13:34:34.392  INFO 32267 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:34:34.409  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:34:34.414  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 1.007 seconds (JVM running for 78.503)
+2022-06-19 13:34:34.419  INFO 32267 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-19 13:34:37.029  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 32267 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:34:37.029  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:34:37.809  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:34:37.810  INFO 32267 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:34:37.810  INFO 32267 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:34:37.826  INFO 32267 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:34:37.826  INFO 32267 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 795 ms
+2022-06-19 13:34:38.104  INFO 32267 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:34:38.120  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:34:38.126  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 1.152 seconds (JVM running for 82.214)
+2022-06-19 13:34:38.127  INFO 32267 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-19 13:34:39.482  INFO 32267 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:34:39.484  INFO 32267 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:34:39.486  INFO 32267 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-19 13:34:39.503  INFO 32267 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-06-19 13:34:39.509  INFO 32267 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-06-19 13:34:39.517  INFO 32267 --- [http-nio-8082-exec-1] .UserAop$$EnhancerBySpringCGLIB$$8168995 : org.apache.catalina.connector.RequestFacade@4e57e2fa
+2022-06-19 13:34:39.770  INFO 32267 --- [http-nio-8082-exec-2] .UserAop$$EnhancerBySpringCGLIB$$8168995 : 1
+2022-06-19 13:36:27.433  INFO 32267 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-06-19 13:36:27.443  INFO 32267 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-06-19 13:36:27.681  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 32267 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:36:27.682  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:36:28.193  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:36:28.194  INFO 32267 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:36:28.194  INFO 32267 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:36:28.209  INFO 32267 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:36:28.209  INFO 32267 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 524 ms
+2022-06-19 13:36:28.629  INFO 32267 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:36:28.658  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:36:28.663  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 1.042 seconds (JVM running for 192.754)
+2022-06-19 13:36:28.666  INFO 32267 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-19 13:36:31.223  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 32267 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:36:31.224  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:36:31.408  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:36:31.409  INFO 32267 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:36:31.410  INFO 32267 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:36:31.415  INFO 32267 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:36:31.416  INFO 32267 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 189 ms
+2022-06-19 13:36:31.610  INFO 32267 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:36:31.620  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:36:31.625  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 0.427 seconds (JVM running for 195.716)
+2022-06-19 13:36:31.627  INFO 32267 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-19 13:36:44.258  INFO 32267 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:36:44.260  INFO 32267 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:36:44.262  INFO 32267 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-19 13:36:44.276  INFO 32267 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-06-19 13:36:44.285  INFO 32267 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-06-19 13:36:44.295  INFO 32267 --- [http-nio-8082-exec-1] .UserAop$$EnhancerBySpringCGLIB$$8168995 : org.apache.catalina.connector.RequestFacade@7f2e64a9
+2022-06-19 13:36:44.777  INFO 32267 --- [http-nio-8082-exec-2] .UserAop$$EnhancerBySpringCGLIB$$8168995 : 1
+2022-06-19 13:37:30.548  INFO 32267 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-06-19 13:37:30.556  INFO 32267 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-06-19 13:37:30.695  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 32267 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:37:30.695  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:37:31.158  WARN 32267 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.lqy.springboot.controller.UserController [Xlint:invalidAbsoluteTypeName]
+2022-06-19 13:37:31.165  INFO 32267 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-19 13:37:31.242 ERROR 32267 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.lqy.springboot.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.lqy.springboot.SpringbootApplication.main(SpringbootApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.lqy.springboot.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.lqy.springboot.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:255)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.lqy.springboot.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:341)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 42 common frames omitted
+
+2022-06-19 13:37:39.747  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 32267 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:37:39.747  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:37:40.041  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:37:40.042  INFO 32267 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:37:40.042  INFO 32267 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:37:40.048  INFO 32267 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:37:40.049  INFO 32267 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 299 ms
+2022-06-19 13:37:40.331  INFO 32267 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:37:40.348  INFO 32267 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:37:40.353  INFO 32267 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 0.641 seconds (JVM running for 264.444)
+2022-06-19 13:37:40.356  INFO 32267 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-19 13:37:53.133  INFO 32267 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:37:53.135  INFO 32267 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:37:53.136  INFO 32267 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-19 13:37:53.151  INFO 32267 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-06-19 13:37:53.174  INFO 32267 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-06-19 13:37:53.181  INFO 32267 --- [http-nio-8082-exec-1] .UserAop$$EnhancerBySpringCGLIB$$8168995 : org.apache.catalina.connector.RequestFacade@9cc743e
+2022-06-19 13:37:53.736  INFO 32267 --- [http-nio-8082-exec-2] .UserAop$$EnhancerBySpringCGLIB$$8168995 : 1
+2022-06-19 13:38:06.049  INFO 32267 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-06-19 13:38:06.050  INFO 32267 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-06-19 13:48:44.907  INFO 38691 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_322 on aotudeMBP with PID 38691 (/Users/aotu/Desktop/vue/spring-vue-massage/springboot/target/classes started by aotu in /Users/aotu/Desktop/vue/spring-vue-massage)
+2022-06-19 13:48:44.909  INFO 38691 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-19 13:48:45.044  INFO 38691 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-19 13:48:45.045  INFO 38691 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-19 13:48:48.830  INFO 38691 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-19 13:48:48.851  INFO 38691 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-19 13:48:48.852  INFO 38691 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-19 13:48:49.003  INFO 38691 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-19 13:48:49.004  INFO 38691 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3958 ms
+2022-06-19 13:48:51.372  INFO 38691 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-19 13:48:51.451  INFO 38691 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-19 13:48:51.476  INFO 38691 --- [restartedMain] c.lqy.springboot.SpringbootApplication   : Started SpringbootApplication in 7.933 seconds (JVM running for 10.15)
+2022-06-19 13:49:06.106  INFO 38691 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-19 13:49:06.107  INFO 38691 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-19 13:49:06.109  INFO 38691 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-19 16:16:00.531  INFO 38691 --- [http-nio-8082-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-19 16:16:00.831  INFO 38691 --- [http-nio-8082-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-19 16:16:00.932  INFO 38691 --- [http-nio-8082-exec-3] UserAop$$EnhancerBySpringCGLIB$$a7622f28 : 1
+2022-06-19 16:17:24.075  INFO 38691 --- [http-nio-8082-exec-4] UserAop$$EnhancerBySpringCGLIB$$a7622f28 : 1
+2022-06-19 18:51:10.615  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h31m9s647ms).
+2022-06-19 18:51:36.615  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=26s1ms), soft-evicting connections from pool.
+2022-06-19 18:55:07.300  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m30s685ms).
+2022-06-19 20:04:41.390  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m33s705ms).
+2022-06-19 21:28:23.018  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m11s641ms).
+2022-06-19 21:48:57.464  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m4s249ms).
+2022-06-19 21:50:22.631  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s132ms).
+2022-06-19 22:01:06.776  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m44s126ms).
+2022-06-19 22:12:45.577  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m8s918ms).
+2022-06-19 22:20:26.503  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m10s822ms).
+2022-06-19 22:50:14.683  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m18s157ms).
+2022-06-19 22:54:22.507  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m7s815ms).
+2022-06-19 23:14:44.461  WARN 38691 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m21s984ms).

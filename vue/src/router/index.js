@@ -1,7 +1,8 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import Layout from '../layout/Layout.vue'
-import Login from '../views/Login'
-import Register from "@/views/register";
+
+const  Layout =import('../layout/Layout.vue')
+const Login = import('../views/Login')
+const Register = import('../views/register')
 
 const routes = [
     {

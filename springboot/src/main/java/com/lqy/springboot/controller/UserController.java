@@ -4,6 +4,7 @@ import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.lqy.springboot.asynvc.AsyncService;
 import com.lqy.springboot.common.Result;
 import com.lqy.springboot.entity.User;
 import com.lqy.springboot.mapper.UserMapper;
@@ -16,6 +17,8 @@ import java.sql.Wrapper;
 @RestController
 @RequestMapping("/user")
 public class UserController {
+    @Autowired
+    AsyncService asyncService;
 //    @RequestBody可以把Json转换为对象
 
     @Resource
@@ -61,7 +64,8 @@ public class UserController {
     public Result<?> login(HttpServletRequest request, @RequestBody User user) {
         LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper();
         lqw.eq(User::getPassword, user.getPassword()).eq(User::getUsername, user.getUsername());
-
+        asyncService.getMessage();
+        System.out.println(Thread.currentThread().getName());
         User res = userMapper.selectOne(lqw);
         if(res==null){
             return Result.error("-1","用户名或密码错误");
@@ -71,7 +75,6 @@ public class UserController {
 
     @PostMapping("/register")
     public Result<?> register(@RequestBody User user) {
-
         userMapper.insert(user);
         return Result.success();
     }
